@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi", "ProductApi\ProductApi.csproj", "{1AB07F84-B486-4705-9F0B-425D2EE530E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "OrderApi\OrderApi.csproj", "{559DB926-84A6-4388-A849-138C85B00412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApi", "CustomerApi\CustomerApi.csproj", "{A410160D-4184-47DB-A48A-01A2349553D9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{98CBE257-DFFA-48F7-8D4A-ACFE8B80B6E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{C19C9E8B-EE46-4276-8538-ED9454E2FF99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{ECA98C40-6945-441F-849F-8E9C3D0379FE}"
+	ProjectSection(SolutionItems) = preProject
+		Kubernetes\orderapi.yml = Kubernetes\orderapi.yml
+		Kubernetes\productapi.yml = Kubernetes\productapi.yml
+		Kubernetes\customerapi.yml = Kubernetes\customerapi.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB07F84-B486-4705-9F0B-425D2EE530E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB07F84-B486-4705-9F0B-425D2EE530E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB07F84-B486-4705-9F0B-425D2EE530E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB07F84-B486-4705-9F0B-425D2EE530E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559DB926-84A6-4388-A849-138C85B00412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559DB926-84A6-4388-A849-138C85B00412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559DB926-84A6-4388-A849-138C85B00412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559DB926-84A6-4388-A849-138C85B00412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A410160D-4184-47DB-A48A-01A2349553D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A410160D-4184-47DB-A48A-01A2349553D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A410160D-4184-47DB-A48A-01A2349553D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A410160D-4184-47DB-A48A-01A2349553D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CBE257-DFFA-48F7-8D4A-ACFE8B80B6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CBE257-DFFA-48F7-8D4A-ACFE8B80B6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CBE257-DFFA-48F7-8D4A-ACFE8B80B6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CBE257-DFFA-48F7-8D4A-ACFE8B80B6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C19C9E8B-EE46-4276-8538-ED9454E2FF99} = {ECA98C40-6945-441F-849F-8E9C3D0379FE}
+	EndGlobalSection
+EndGlobal
